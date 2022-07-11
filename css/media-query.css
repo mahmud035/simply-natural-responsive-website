@@ -117,10 +117,6 @@
 }
 
 @media (max-width: 576px) {
-  /** Navigation */
-  .navbar-links ul li {
-  }
-
   /** Header */
   header {
     border-bottom-right-radius: 40px;
