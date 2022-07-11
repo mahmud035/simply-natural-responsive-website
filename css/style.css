@@ -487,12 +487,11 @@ header {
 
 .user {
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   align-items: center;
 }
 
 .user img {
-  width: 230px;
   height: 295px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -518,7 +517,6 @@ header {
 
 /**  Go to Shop Section  */
 .go-to-shop-section-container {
-  /* padding: 6rem 0 8rem; */
   height: 80vh;
   background: url(../images/home-bg-2.jpg) no-repeat;
   background-position: bottom center; /* INFO: background-position is important. */
