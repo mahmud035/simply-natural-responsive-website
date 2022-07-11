@@ -475,11 +475,105 @@ header {
   margin-inline: auto;
 }
 
+/** Footer Link Section  */
+.link-section-container {
+  padding: 8rem 0 7rem;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem 1.2rem;
+  align-items: start;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding-bottom: 1.3rem;
+}
+
+.info p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 30px;
+}
+
+.social-link img {
+  width: 92px;
+  height: 92px;
+  margin-inline: auto;
+  object-fit: cover;
+}
+
+.social-link h2 {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 24px;
+  text-align: center;
+  padding: 1.2rem 0;
+}
+
+.social-link {
+  text-align: center;
+}
+
+.social-link .icons a {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.social-link .icons a i {
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  background: var(--social-icon-bg);
+  transition: 0.35s ease;
+  color: #fff;
+}
+
+.social-link .icons a:hover i {
+  background: var(--footer-icon-hover);
+}
+
+.quick-links,
+.important-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.quick-links h3,
+.important-links h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding-bottom: 1rem;
+}
+
+.quick-links a,
+.important-links a {
+  font-size: 15px;
+  color: var(--text-secondary);
+  transition: 0.3s ease;
+}
+
+.quick-links a:hover,
+.important-links a:hover {
+  color: var(--footer-icon-hover);
+}
 /** Footer */
 footer {
+  border-top: 1px solid #efeef4;
+  padding: 2rem 0;
+}
+
+.footer-content {
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 0;
   align-items: center;
   color: var(--text-secondary);
   font-size: 15px;

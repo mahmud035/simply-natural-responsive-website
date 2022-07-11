@@ -1,5 +1,18 @@
 /** ==========> Media Query  for Home Page<=========== */
 
+@media (max-width: 1325px) {
+  /** Link Section */
+  .link-section-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    justify-items: start;
+  }
+
+  .social-link img {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 1100px) {
   /** Navigation  & Header*/
   .navbar.container,
@@ -163,8 +176,14 @@
     font-size: 11px;
   }
 
+  /** Link Section */
+  .link-section-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
   /** Footer */
-  footer {
+  .footer-content {
     flex-direction: column;
     gap: 1rem;
   }
