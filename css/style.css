@@ -442,6 +442,80 @@ header {
   padding-bottom: 10px;
 }
 
+/** Testimonials */
+.testimonial-section-container {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    'title user2'
+    'user1 user2'
+    'user1 user3'
+    '. user3';
+}
+
+.title {
+  grid-area: title;
+}
+
+.user-1 {
+  grid-area: user1;
+}
+
+.user-2 {
+  grid-area: user2;
+}
+
+.user-3 {
+  grid-area: user3;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding-bottom: 10px;
+}
+
+.title p {
+  font-size: 15px;
+  color: var(--text-secondary);
+}
+
+.user {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.user img {
+  width: 230px;
+  height: 295px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  object-fit: cover;
+}
+
+.user .user-info p {
+  color: var(--text-secondary);
+  line-height: 30px;
+}
+
+.user .user-info h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding: 1rem 0 8px;
+}
+.user .user-info small {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
 /**  Go to Shop Section  */
 .go-to-shop-section-container {
   /* padding: 6rem 0 8rem; */
