@@ -194,7 +194,43 @@ header {
   line-height: 77px;
   padding: 2rem 0;
 }
-/** -----Media Query----- */
+
+/** Brief Info Section */
+.brief-info-section {
+  padding: 4rem 0 5rem;
+  height: fit-content;
+}
+
+.brief-info-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.brief-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brief-info img {
+  width: 70px;
+  height: 70px;
+  padding: 14px;
+  object-fit: cover;
+}
+
+.text h3 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.text p {
+  font-size: 15px;
+}
+/** ==========> Media Query <=========== */
 @media (max-width: 1100px) {
   /** Navigation  & Header*/
   .navbar.container,
