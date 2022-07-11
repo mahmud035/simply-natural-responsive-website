@@ -116,6 +116,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  /** Ask help Section */
+  .ask-help-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ask-help-heading {
+    gap: 2rem;
+  }
+}
+
 @media (max-width: 576px) {
   /** Header */
   header {
