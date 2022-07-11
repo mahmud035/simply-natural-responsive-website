@@ -444,19 +444,19 @@ header {
 
 /**  Go to Shop Section  */
 .go-to-shop-section-container {
-  padding: 6rem 0 8rem;
-  height: 70vh;
+  /* padding: 6rem 0 8rem; */
+  height: 80vh;
   background: url(../images/home-bg-2.jpg) no-repeat;
-  background-position: center center;
+  background-position: bottom center; /* INFO: background-position is important. */
   background-size: cover;
   position: relative;
 }
 
 .shop-content-container {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -20%);
   text-align: center;
 }
 
@@ -473,4 +473,14 @@ header {
   line-height: 30px;
   width: 60%;
   margin-inline: auto;
+}
+
+/** Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  align-items: center;
+  color: var(--text-secondary);
+  font-size: 15px;
 }

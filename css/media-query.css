@@ -126,6 +126,15 @@
   .ask-help-heading {
     gap: 2rem;
   }
+
+  /** Go to Shop Section */
+  .shop-content-container h2 {
+    font-size: 2rem;
+  }
+
+  .shop-content-container p {
+    font-size: 13.6px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -143,5 +152,20 @@
 
   .btn {
     font-size: 11px;
+  }
+
+  /** Go to Shop Section */
+  .shop-content-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .shop-content-container .btn {
+    font-size: 11px;
+  }
+
+  /** Footer */
+  footer {
+    flex-direction: column;
+    gap: 1rem;
   }
 }
