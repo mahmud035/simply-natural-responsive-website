@@ -300,3 +300,85 @@ header {
 }
 
 /** Featured Plants  */
+.featured-plants-container {
+  padding: 4rem 0 10rem;
+  height: fit-content;
+}
+
+.heading h2 {
+  font-size: 40px;
+  color: var(--text-primary);
+  font-weight: 500;
+  text-align: center;
+}
+
+.heading p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 1rem 0 4rem;
+}
+
+.plants-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem 1.3rem;
+}
+
+.plant {
+  position: relative;
+}
+
+.plant .plant-info p {
+  font-size: 12.75px;
+  color: var(--text-secondary);
+  padding: 10px 0 3px;
+}
+
+.plant-info h3 {
+  font-size: 15px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.plant-info .ratings {
+  display: flex;
+  gap: 3px;
+  padding: 0.5rem 0;
+}
+
+.plant-info .ratings .icon {
+  width: 12px;
+  height: 12px;
+  object-fit: cover;
+}
+
+.plant-info h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.plant-info h4 .previous-price {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.plant .hot {
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--link-color);
+  color: var(--text-primary);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -8px;
+  right: -6px;
+}
