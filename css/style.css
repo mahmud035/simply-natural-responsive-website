@@ -160,6 +160,10 @@ header {
   transition: 0.5s ease;
 }
 
+.navbar-links ul li a.current {
+  color: var(--link-color);
+}
+
 .navbar-links li a:hover {
   color: var(--link-color);
 }
