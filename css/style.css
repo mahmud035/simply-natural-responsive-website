@@ -711,18 +711,21 @@ h2.about-quality-heading {
   gap: 3rem;
 }
 
-.company-heading {
+.company-heading,
+.our-team-heading {
   text-align: center;
 }
 
-.company-heading h2 {
+.company-heading h2,
+.our-team-heading h2 {
   color: var(--text-primary);
   font-size: 40px;
   font-weight: 500;
   padding-bottom: 1rem;
 }
 
-.company-heading p {
+.company-heading p,
+.our-team-heading p {
   font-size: 15px;
   color: var(--text-secondary);
   width: 50%;
@@ -745,6 +748,45 @@ h2.about-quality-heading {
   line-height: 30px;
   color: var(--text-secondary);
   font-size: 15px;
+}
+
+/** Our Team  */
+.our-team-container {
+  padding: 5rem 3rem;
+  min-height: 100vh;
+}
+
+.team-member-container {
+  padding: 4rem 0;
+  height: fit-content;
+  display: flex;
+  gap: 3rem;
+}
+
+.team-member {
+  flex: 1;
+  text-align: center;
+}
+
+.team-member h3 {
+  font-size: 24px;
+  color: var(--text-primary);
+  font-weight: 500;
+  padding-top: 1.2rem;
+}
+
+.team-member p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  padding-bottom: 1rem;
+}
+
+.team-member .divider {
+  width: 40px;
+  height: 2px;
+  background-color: var(--link-color);
+  margin-inline: auto;
+  margin-bottom: 1rem;
 }
 
 /** --------------Contact Us Page CSS------------ */
