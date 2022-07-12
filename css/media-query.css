@@ -187,6 +187,11 @@
   .login-form-content.container {
     width: 90%;
   }
+
+  /** About Page About Our Quality Section  */
+  .about-quality-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 576px) {

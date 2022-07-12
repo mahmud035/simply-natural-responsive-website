@@ -658,6 +658,50 @@ footer {
   font-size: 15px;
 }
 
+/** --------------About Us Page CSS -------------*/
+header#about-us-header {
+  min-height: 48vh;
+  background: url(../images/about-bg.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(233, 232, 230, 0.5);
+  background-blend-mode: overlay;
+  border-radius: 0 0 75px 75px;
+}
+
+/** About Our Quality Section  */
+.about-quality-container {
+  padding: 7rem 0;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+}
+
+.about-quality-heading {
+  flex: 1;
+}
+
+.about-quality-text {
+  flex: 2;
+  padding-right: 2rem;
+}
+
+h2.about-quality-heading {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.about-quality-text p {
+  line-height: 30px;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
+.about-quality-text a.btn {
+  margin-top: 1.5rem;
+}
+
 /** --------------Contact Us Page CSS------------ */
 header#contact-us-header {
   min-height: 48vh;
