@@ -702,6 +702,51 @@ h2.about-quality-heading {
   margin-top: 1.5rem;
 }
 
+/** Our Company */
+.our-company-section-container {
+  padding: 5rem 0 7rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.company-heading {
+  text-align: center;
+}
+
+.company-heading h2 {
+  color: var(--text-primary);
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.company-heading p {
+  font-size: 15px;
+  color: var(--text-secondary);
+  width: 50%;
+  margin-inline: auto;
+  line-height: 30px;
+}
+
+.company-img img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.company-text {
+  display: flex;
+  align-items: flex-start;
+  gap: 6rem;
+}
+
+.company-text p {
+  line-height: 30px;
+  color: var(--text-secondary);
+  font-size: 15px;
+}
+
 /** --------------Contact Us Page CSS------------ */
 header#contact-us-header {
   min-height: 48vh;
