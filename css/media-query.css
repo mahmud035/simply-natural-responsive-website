@@ -125,7 +125,7 @@
     padding: 1.7rem 0;
   }
 
-  /** About Page  Our Company Section*/
+  /** About Page:  Our Company Section*/
   .company-heading h2 {
     font-size: 2rem;
   }
@@ -134,6 +134,11 @@
     width: 65%;
     line-height: 27px;
     font-size: 13.6px;
+  }
+
+  /**  About Page:  Our Team  */
+  .team-member-container {
+    gap: 1.5rem;
   }
 }
 
@@ -202,6 +207,15 @@
   /** About Page About Our Quality Section  */
   .about-quality-container {
     flex-direction: column;
+  }
+
+  /** About Page: Our Team */
+  .team-member h3 {
+    font-size: 20px;
+  }
+
+  .team-member p {
+    font-size: 13.6px;
   }
 }
 
@@ -274,8 +288,14 @@
   }
 
   /** About Page  Our Company Section*/
-  .company-heading p {
+  .company-heading p,
+  .our-team-heading p {
     width: 75%;
+  }
+
+  /** About Page Our Team  */
+  .team-member-container {
+    flex-direction: column;
   }
 
   .company-text {

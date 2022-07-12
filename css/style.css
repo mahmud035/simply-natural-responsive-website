@@ -596,22 +596,17 @@ header {
 }
 
 .social-link .icons a {
-  width: 34px;
-  height: 34px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  margin-right: 8px;
+  background-color: var(--social-icon-bg);
+  color: var(--bg-white);
+  margin-right: 10px;
+  padding: 7px 9px;
+  transition: 0.3s ease;
 }
 
-.social-link .icons a i {
-  width: inherit;
-  height: inherit;
-  border-radius: 50%;
-  background: var(--social-icon-bg);
-  transition: 0.35s ease;
-  color: #fff;
-}
-
-.social-link .icons a:hover i {
+.social-link .icons a:hover {
   background: var(--footer-icon-hover);
 }
 
@@ -752,7 +747,7 @@ h2.about-quality-heading {
 
 /** Our Team  */
 .our-team-container {
-  padding: 5rem 3rem;
+  padding: 5rem 0;
   min-height: 100vh;
 }
 
@@ -778,7 +773,7 @@ h2.about-quality-heading {
 .team-member p {
   font-size: 15px;
   color: var(--text-secondary);
-  padding-bottom: 1rem;
+  padding-bottom: 1.3rem;
 }
 
 .team-member .divider {
@@ -787,6 +782,25 @@ h2.about-quality-heading {
   background-color: var(--link-color);
   margin-inline: auto;
   margin-bottom: 1rem;
+}
+
+.social-icon {
+  padding-top: 1rem;
+}
+
+.social-icon a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--social-icon-bg);
+  color: var(--bg-white);
+  margin-right: 10px;
+  padding: 7px 9px;
+  transition: 0.3s ease;
+}
+
+.social-icon a:hover {
+  background-color: var(--team-icon-hover);
 }
 
 /** --------------Contact Us Page CSS------------ */
