@@ -675,7 +675,7 @@ header#contact-us-header {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: 1fr 1.2fr;
+  grid-template-rows: 320px 1fr;
   gap: 3rem;
   grid-template-areas:
     'contact-detail map'
@@ -733,7 +733,8 @@ header#contact-us-header {
   margin-top: 10px;
 }
 
-.contact-form h2 {
+.contact-form h2,
+.contact-map h2 {
   font-weight: 500;
   color: var(--text-primary);
   padding-bottom: 1.3rem;
@@ -759,9 +760,30 @@ textarea {
   margin-top: 1rem;
 }
 
-.contact-map .map-navigation > img {
-  width: 20px;
-  height: 20px;
+.contact-map .map-navigation {
+  padding: 2rem 0 1rem;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-map .map-navigation > i {
+  width: 15px;
+  height: 15px;
+  color: red;
+}
+
+.contact-map .map-navigation > a {
+  font-size: 12px;
+  color: red;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.contact-map .map-navigation:hover i,
+.contact-map .map-navigation:hover a {
+  color: var(--social-icon-bg);
 }
 
 /** -------------My Account Page CSS-------------- */
