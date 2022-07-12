@@ -669,6 +669,101 @@ header#contact-us-header {
   border-radius: 0 0 75px 75px;
 }
 
+/** Contact Content  */
+.contact-content-container {
+  padding: 5rem 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-template-rows: 1fr 1.2fr;
+  gap: 3rem;
+  grid-template-areas:
+    'contact-detail map'
+    'form map';
+}
+
+.contact-details {
+  grid-area: contact-detail;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.contact-form {
+  grid-area: form;
+}
+
+.contact-map {
+  grid-area: map;
+}
+
+.contact-details h2 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.contact-details-inner-container {
+  padding: 2rem 1rem 4rem;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-details-inner-container .contact-info {
+  height: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+  color: var(--text-primary);
+}
+
+.contact-info p {
+  color: var(--text-secondary);
+}
+
+.contact-details .contact-info img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.contact-form h2 {
+  font-weight: 500;
+  color: var(--text-primary);
+  padding-bottom: 1.3rem;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 11px 10px;
+  margin-top: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.contact-form a.btn {
+  margin-top: 1rem;
+}
+
+.contact-map .map-navigation > img {
+  width: 20px;
+  height: 20px;
+}
+
 /** -------------My Account Page CSS-------------- */
 
 .login-form-area {
