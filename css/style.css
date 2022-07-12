@@ -387,7 +387,7 @@ header {
 .ask-help-section-container {
   padding: 6rem 0;
   height: fit-content;
-  border-bottom: 1px solid #efeef4;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .ask-help-content {
@@ -638,7 +638,7 @@ header {
 }
 /** Footer */
 footer {
-  border-top: 1px solid #efeef4;
+  border-top: 1px solid #eaeaea;
   padding: 2rem 0;
 }
 
@@ -649,4 +649,65 @@ footer {
   align-items: center;
   color: var(--text-secondary);
   font-size: 15px;
+}
+
+/** -------------My Account Page CSS-------------- */
+
+.login-form-area {
+  padding: 5rem 0;
+}
+
+.login-form-content {
+  padding: 5rem;
+  background: var(--bg-white);
+}
+
+.login-form-content h2 {
+  font-size: 30px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.login-form-content h3 {
+  font-size: 24.5px;
+  color: var(--text-primary);
+  font-weight: 500;
+  padding: 1.5rem 0 1.5rem;
+}
+
+.login-form-content form {
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.login-form-content form input[type='text'],
+.login-form-content form input[type='password'] {
+  display: block;
+  width: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  outline: 0;
+  padding: 10px 10px;
+  margin-bottom: 1rem;
+}
+
+.login-form-content form label {
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-size: 13.5px;
+}
+
+.login-form-content form label span {
+  color: red;
+}
+
+.login-form-content form a.btn {
+  margin: 12px 0 16px;
+  font-weight: 600;
+  padding: 14px 2.3rem;
+}
+
+.login-form-content form a:last-child:hover {
+  color: var(--footer-icon-hover);
 }
