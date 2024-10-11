@@ -1,5 +1,7 @@
 # Simply Natural Responsive Website
 
+- **Live Site URL**: [Simply Natural](https://simply-natural-e-commerce.netlify.app/)
+
 ## Description
 
 This repository contains the code for a responsive website for Simply Natural, designed to present the brand's philosophy, products, and contact information. The website is built using HTML, CSS, and JavaScript to ensure a seamless and responsive user experience across all devices.
